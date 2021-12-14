@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const Data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function App() {
   return (
-    <div style={{ marginTop: 0 }}>
+    <div>
       <Navbar />
       <div className="row">
         {Data.map((c) => (
